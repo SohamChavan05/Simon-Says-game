@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Simon Game</title>
+</head>
+<body>
+    <div class="m-circle">
+        <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg" class="middle-circle">
+            <circle cx="150" cy="150" r="150" fill="#1B1A1A"/>
+        </svg>
+    </div>
+
+
+    <p class="scoreText">Score : 00</p>
+
+    <p class="levelText">Start</p>
+
+    <p class="startText" >Press Any Key To Start !</p>
+
+    <p class="turnText disable"></p>
+
+    <p class="hScore">Higest Score : 00</p>
+
+
+    <div class="row-first">
+        <div class="first">
+            <svg width="398" height="398" viewBox="0 0 398 398" fill="none" xmlns="http://www.w3.org/2000/svg" class="green btn" id="green" type="button">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 350C0 377.614 22.4979 400.328 49.9007 396.918C230.917 374.391 374.391 230.916 396.918 49.9007C400.328 22.4978 377.614 0 350 0H50C22.3858 0 0 22.3858 0 50V350Z"/>
+            </svg>
+
+        </div>
+
+        <div class="second">
+            <svg width="398" height="398" viewBox="0 0 398 398" fill="none" xmlns="http://www.w3.org/2000/svg" class="red btn" id="red" type="button">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 350C0 377.614 22.4979 400.328 49.9007 396.918C230.917 374.391 374.391 230.916 396.918 49.9007C400.328 22.4978 377.614 0 350 0H50C22.3858 0 0 22.3858 0 50V350Z"/>
+            </svg>
+        </div>
+    </div>
+
+    <div class="row-second">
+        <div class="thrid">
+            <svg width="398" height="398" viewBox="0 0 398 398" fill="none" xmlns="http://www.w3.org/2000/svg" class="yellow btn" id="yellow" type="button">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 350C0 377.614 22.4979 400.328 49.9007 396.918C230.917 374.391 374.391 230.916 396.918 49.9007C400.328 22.4978 377.614 0 350 0H50C22.3858 0 0 22.3858 0 50V350Z"/>
+            </svg>
+
+        </div>
+
+        <div class="fourth">
+            <svg width="398" height="398" viewBox="0 0 398 398" fill="none" xmlns="http://www.w3.org/2000/svg"class="blue btn" id="blue" type="button">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 350C0 377.614 22.4979 400.328 49.9007 396.918C230.917 374.391 374.391 230.916 396.918 49.9007C400.328 22.4978 377.614 0 350 0H50C22.3858 0 0 22.3858 0 50V350Z"/>
+            </svg>            
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
